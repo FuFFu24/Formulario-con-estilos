@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+  height: 240px;
+  width: 300px;
+  background-color: lightblue;
+  border-style: solid none;
+  border-color: darkblue;
+}
+
+.p {
+  padding: 10px;
+}
+
+*::selection {
+  background: yellow;
+  color: black;
+  text-shadow: 1px 1px #fff;
+}
