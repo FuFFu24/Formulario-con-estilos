@@ -11,8 +11,6 @@ div {
   padding: 10px;
 }
 
-*::selection {
+input:focus {
   background: yellow;
-  color: black;
-  text-shadow: 1px 1px #fff;
 }
